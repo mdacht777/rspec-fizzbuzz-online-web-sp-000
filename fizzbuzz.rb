@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(val)
   if val % 15 == 0 # if the number int is divisible by 3
-    "FizzBuzz" # Go fizz
+    "FizzBuzz" # Go fizzbuzz
   elsif val % 3 == 0 # if the number int is divisible by 3
     "Fizz" # Go fizz
   elsif val % 5 == 0 # if the number int is divisible by 3
-    "Buzz" # Go fizz
+    "Buzz" # Go buzz
   else
   end
 end
